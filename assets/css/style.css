@@ -311,7 +311,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #37423b;
+  color: var(--color1);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -320,7 +320,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: var(--color1);
 }
 
 @media (max-width: 991px) {
@@ -359,7 +359,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: var(--bg1);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -367,7 +367,7 @@ h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37423b;
+  color: var(--color3);
 }
 
 .navbar-mobile a:hover,
@@ -388,8 +388,8 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: var(--bg2);
+  box-shadow: var(--box-shadow);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -635,7 +635,7 @@ section {
   background: #fff;
 }
 
-.why-us .icon-boxes .icon-box {
+.why-us .icons-boxes .icons-box {
   text-align: center;
   background: var(--bg2);
   padding: 40px 30px;
@@ -643,7 +643,7 @@ section {
   border: 1px solid #eef0ef;
 }
 
-.why-us .icon-boxes .icon-box i {
+.why-us .icons-boxes .icons-box i {
   font-size: 32px;
   padding: 18px;
   color: #5fcf80;
@@ -652,13 +652,13 @@ section {
   border-radius: 50px;
 }
 
-.why-us .icon-boxes .icon-box h4 {
+.why-us .icons-boxes .icons-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 30px 0;
 }
 
-.why-us .icon-boxes .icon-box p {
+.why-us .icons-boxes .icons-box p {
   font-size: 15px;
   color: var(--color2);
 }
