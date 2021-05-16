@@ -97,6 +97,7 @@
 
 .corses-singel-left {
 	padding: 35px 40px;
+	background-color: var(--bg2);
 }
 .corses-singel-left .course-terms > ul > li {
 	margin-right: 23px;
@@ -572,7 +573,7 @@
 
 .corses-singel-left {
 	padding: 20px 30px;
-	
+	background-color: var(--bg2);
 }
 
 .singel-event-list {
@@ -1054,6 +1055,7 @@
 
 .corses-singel-left {
 	padding: 20px 30px;
+	background-color: var(--bg2)
 }
 
 .corses-singel-left .title h3 {
