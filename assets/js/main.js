@@ -129,9 +129,30 @@
 })()
 
 const navbar = document.querySelector(".header");
+const commentbox = document.querySelector(".comment1");
+const commentbox1 = document.querySelector(".comment2");
+const commentbox2 = document.querySelector(".comment3");
+const commentbox3 = document.querySelector(".comment4");
 
 window.onscroll = ()=>{
   this.scrollY > 20 ?  navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+}
+
+function commentOpen(){
+  commentbox.classList.add("is-hidden");
+  commentbox1.classList.remove("is-hidden")
+}
+function commentClose(){
+  commentbox1.classList.add("is-hidden");
+  commentbox.classList.remove("is-hidden")
+}
+function commentOpen1(){
+  commentbox2.classList.add("is-hidden");
+  commentbox3.classList.remove("is-hidden")
+}
+function commentClose1(){
+  commentbox3.classList.add("is-hidden");
+  commentbox2.classList.remove("is-hidden")
 }
 
 function theme1(){
